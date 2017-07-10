@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Trakr.</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login_btn_label">Login</string>
+
+    <string name="register_success">Success, you are ready to login</string>
+    <string name="record_save_success">Stored</string>
+    <string name="operation_ok">Stored</string>
+    <string name="static_maps_key">AIzaSyAEFF1sKMosZZ_iwQQ2oCvv00p9OVnYNNc</string>
+    <string name="google_geo_api_key">AIzaSyAEFF1sKMosZZ_iwQQ2oCvv00p9OVnYNNc</string>
+
+    <string-array name="storage_select">
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+</resources>

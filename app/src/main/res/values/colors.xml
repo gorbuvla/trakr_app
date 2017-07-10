@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appPrimary1">#66bb6a</color>
+    <color name="appPrimary2">#536dfe</color>
+    <color name="lightGrey">#cfd8dc</color>
+    <color name="indigoDark">#7986cb</color>
+    <color name="indigoMiddle">#9fa8da</color>
+    <color name="indigoLight">#e8eaf6</color>
+    <color name="solidBlack">#000000</color>
+    <color name="solidWhite">#ffffff</color>
+    <color name="solidGrey">#e0e0e0</color>
+    <color name="middleGrey">#bdbdbd</color>
+    <color name="darkGrey">#9e9e9e</color>
+
+    <color name="lightYellow">#fffde7</color>
+    <color name="lightBlue">#e1f5fe</color>
+    <color name="lightRed">#ef9a9a</color>
+
+    <color name="errorRed">#f44336</color>
+    <color name="successGreen">#00e676</color>
+</resources>

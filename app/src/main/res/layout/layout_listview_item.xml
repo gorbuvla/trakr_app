@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/indigoLight">
+
+    <ImageView
+        android:id="@+id/item_thumbnail"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="6dp"
+        android:padding="1dp"
+        android:background="@color/darkGrey"
+        android:src="@drawable/time_icon"
+        />
+
+    <TextView
+        android:id="@+id/notif_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/item_thumbnail"
+        android:layout_toRightOf="@id/item_thumbnail"
+        android:layout_marginRight="100dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="Badminton"
+        android:maxLines="1"
+        android:maxEms="10"
+        android:ellipsize="end"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/notif_location_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notif_title"
+        android:layout_toRightOf="@id/item_thumbnail"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="60dp"
+        android:text="Prague, Dejvicka 34b"
+        android:maxLines="1"
+        android:maxEms="10"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/notif_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notif_location_label"
+        android:layout_toRightOf="@id/item_thumbnail"
+        android:paddingLeft="10dp"
+        android:text="Duration: 2:30"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/notif_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="13:44 12.6.2017"
+        android:textSize="12sp"
+        android:layout_margin="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/notif_storage_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Firebase"
+        android:textSize="12sp"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
