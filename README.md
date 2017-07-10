@@ -4,6 +4,23 @@ Trakr. is a simple app that lets you track your activities.
 ## Overall
 Purpose of the project is to try out some Android-related libraries/frameworks,
 app is not fully reactive, RxJava is used only to deal with concurrency.
+<div style="display: inline-block">
+  <img src="/screenshots/screen_login.png?raw=true" alt="alt text" width="200" height="350">
+</div>
+
+<div style="display: inline-block; word-spacing: 10">
+  <img src="/screenshots/screen_form.png?raw=true" alt="alt text" width="200" height="350">
+</div>
+<div style="margin-left:10"></div>
+
+<div style="display: block;">
+  <img src="/screenshots/screen_list.png?raw=true" alt="alt text" width="200" height="350">
+</div>
+
+<div style="display: block">
+  <img src="/screenshots/screen_detail.png?raw=true" alt="alt text" width="200" height="350">
+</div>
+
 
 ### Disclaimer
 Not working with play services v11.0.55, tested with v10.2.98
